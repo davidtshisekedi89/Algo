@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    background-color: darkturquoise;
+    height: 200px;
+    margin: 0 auto;
+    
+
+}
+
+.nav-top{
+    width: 1200px;
+    height: 50%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    /* gap: 0px; */
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+.nav-bottom{
+width: 1200px;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 auto;
+border-bottom: 4px solid black;
+
+}
+.box {
+    width: 1200px;
+    height: 150px;
+    background-color: lightgray;
+    /* margin: 20px; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+}
+
+.main {
+/* display: flex; */
+/* margin: 0 auto; */
+
+
+}
+
+.heart-logo {
+width: 30px;
+padding: 10px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 30%;  
+}
+
+h2 {
+    color: white;
+    /* margin-right: 500px; */
+    width: 60%;
+
+
+
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid violet;
+    color: violet;
+    font-weight: bolder;
+
+}
+
+.image-paw {
+    width: 40px;
+    
+    
+}
+.image-pin {
+    width: 40px;
+    
+    
+}
+
+.btn2 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.search-bar {
+    width: 180px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.btn3 {
+    background-color: darkturquoise;
+    width: 300px;
+    height: 30px;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}

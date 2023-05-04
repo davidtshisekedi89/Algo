@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-top">
+            <img class="heart-logo" src="./asset/white-heart.png" alt="heart">
+            <h2>Pet Shelter</h2>
+            <ul class="nav-link">
+                <li>Find a Pet</li>
+                <li>About</li>
+                <li><button class="btn">Donate</button></li>
+            </ul>
+        </div>
+        <div class="nav-bottom">
+            <img class="image-paw"  src="./asset/paw.jpg" alt="image">
+            <form action="#">
+                <label for="#"><p>I'm looking for a...</p></label>
+                <select name="Pet" class="search-bar">
+                    <option value="#">Any Pet</option>
+                    <option value="#">Cat</option>
+                    <option value="#">Dog</option>
+                </select>
+            </form>
+            <p>in or near...</p>
+            <label for="#"><img class="image-pin" src="./asset/pin.jpg" alt="pin"></label>
+            <input type="nuber" name="code" class="search-bar" placeholder=" City or Zip Code">
+            <button class="btn2">Find your new best friend</button>
+
+
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="box">
+            <img src="" alt="">
+            <h1>Pepper</h1>
+            <p class="text-box">Pepper is a slightly shy grey tabby, but she <br>
+                really loves showing her human affection.
+            </p>
+            <span id="count3">3 petting(s)</span>
+            <button class="btn3" onclick="like('#count3')">Pet Pepper</button>
+
+        </div>
+        <div class="box">
+            <img src="" alt="">
+            <h1>Bruce</h1>
+            <p class="text-box">Bruce is a loyal companion. He loves long <br>
+                walks and cold weather.
+            </p>
+            <span id="count2">5 petting(s)</span>
+            <button class="btn3" onclick="like('#count2')">Pet Bruce</button>
+    
+        </div>
+        <div class="box">
+            <img src="" alt="">
+            <h1>Oscar</h1>
+            <p class="text-box">Oscar is bright, energetic and friendly. he is <br>
+                looking for a good home.
+            </p>
+            <span id="count1">8 petting(s)</span>
+            <button class="btn3" onclick="like('#count1')">Pet Oscar</button>
+        </div>
+
+    </div>
+
+    
+
+
+</body>
+</html>
