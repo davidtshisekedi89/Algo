@@ -80,4 +80,22 @@
   // removeDuplicates(nums3);
   // console.log( nums3);
   
+  // ++++++++++++++++++++++++++solution2++++++++++++++++
+
+  var removeDuplicates = function(nums) {
+    let P = 1;
+    for(var i = 1; i < nums.length; i++){
+      if(nums[i] != nums[i-1]){
+        nums[P] = nums[i];
+        P++;
+        continue;
+      }
   
+    }
+    console.log(P);
+    return nums;
+  }
+  
+  let nums = [1,1,2,3,3,4,4,5,5,6]
+  removeDuplicates(nums);
+  console.log(nums);
