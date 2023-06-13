@@ -59,7 +59,7 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 // solution # 2
 
 
-let count = 0;
+// let count = 0;
 
 function cc(card) {
   // Only change code below this line
