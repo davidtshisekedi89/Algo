@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/readmoreButton.css">
+</head>
+
+<body>
+    <div class="title">
+        <h3>About Us</h3>
+    </div>
+    <div class="content hideContent">
+        <h3>TV show management application is developed using Spring Boot, which is a Java-based framework for building
+            web applications. The application provides various features for users to interact with the TV shows.</h3>
+        <p>The application includes a login system with validation, allowing users to create accounts and securely
+            authenticate themselves. This ensures that only authorized users can access the system.
+
+            Once logged in, users can perform CRUD (Create, Read, Update, Delete) operations on TV shows. They can add
+            new shows, update the existing ones, and delete shows they no longer want. This functionality is implemented
+            using Java, JavaScript, JSP (JavaServer Pages), CSS, and some Bootstrap for styling,<span
+                id="dots">...</span><span id="more">resulting in an aesthetically pleasing user interface.
+
+                Additionally, users have the ability to rate the shows. They can assign a rating to a show, allowing
+                them to express their opinion and provide feedback. The ratings are stored in the MySQL database, which
+                is used as the application's data storage.
+
+                To handle the relationship between users and shows, a many-to-many relationship is established. This
+                means that multiple users can rate multiple shows, and multiple shows can have ratings from multiple
+                users. This relationship ensures the flexibility and scalability of the application.
+
+                Furthermore, users can view the average rating of each show they are interested in. This allows them to
+                see the overall rating of a show based on the collective ratings provided by all users. This feature
+                provides valuable insights and helps users make informed decisions about which shows to watch.
+
+                In addition to ratings, users can also leave comments about the shows. The comment box allows users to
+                share their thoughts, opinions, or discuss specific aspects of a show. This promotes user engagement and
+                encourages interaction within the community of TV show enthusiasts.
+
+                Lastly, the application offers a dark mode option, which allows users to switch between light and dark
+                themes according to their preference. This feature enhances the user experience by providing a visually
+                appealing interface and accommodating different user preferences.
+
+                Overall, your TV show management application built with Spring Boot, Java, JavaScript, JSP, CSS, and
+                MySQL incorporates authentication, validation, CRUD operations, ratings, comments, and dark mode
+                functionality, offering an intuitive and feature-rich experience for users to manage and explore their
+                favorite TV shows.</span></p>
+
+        <div class="" onclick="myFunction()" id="btn">
+            <a id="readMoreText">Read More</a>
+        </div>
+
+
+        <div class="social">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a><i class="fa-brands fa-linkedin"></i></a>
+            <a><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+
+function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("readMoreText");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read More";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read Less";
+            moreText.style.display = "inline";
+        }
+    }
+
+
+
+    </script>
+</body>
+
+</html>
